@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Meme Generator - Laugh Out Loud!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <img id="image" src="https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif" alt="Meme" />
+        <div id="form">
+          <input type="text" name="content" id="content" placeholder="Enter your funniest text here!" />
+          <button type="submit" id="button" onclick="fetchMeme()">Generate LOL</button>
+        </div>
+      <p id="error-msg"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
